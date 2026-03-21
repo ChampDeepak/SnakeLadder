@@ -22,6 +22,8 @@ public class Dice
         int max = 6;
         int min = 1;
         Random randumNum = new Random(); 
-        return randumNum.nextInt((max-min)+1)+min; 
+        int val =  randumNum.nextInt((max-min)+1)+min;
+        System.out.println("Result of Dice: " + val); 
+        return val; 
     }
 }

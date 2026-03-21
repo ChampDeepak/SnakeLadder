@@ -22,7 +22,8 @@ public class Game {
         System.out.println("Building the board.");
         this.board = BoardBuilder.get(this.boardLength);  
         System.out.println("Board bn gya.");
-        this.gameOverFlag = playerQueue.size()>1; 
+        System.out.println(playerQueue.size());
+        this.gameOverFlag = playerQueue.size()<=1; 
         this.dice = Dice.getInstance(); 
         this.winners = new ArrayList<>(); 
     }
