@@ -1,3 +1,19 @@
+# Running Snake & Ladder
+
+```bash
+git clone https://github.com/ChampDeepak/SnakeLadder/
+cd SnakeLadder
+javac *.java
+java Client
+```
+
+When prompted, enter:
+- **Player count** — e.g. `2`
+- **Board size n** — e.g. `10` (creates a 10×10 board)
+- **Difficulty** — `0` for easy, `1` for difficult
+
+Then keep entering `1` to roll the dice each turn. Enjoy! 🎲
+
 # Snake & Ladder — Design Description
 
 ## Overview
